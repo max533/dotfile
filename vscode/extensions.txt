@@ -1,0 +1,24 @@
+# Git Graph
+mhutchie.git-graph
+# Git Lens
+eamodio.gitlens
+# Python
+ms-python.python
+# pylance
+ms-python.vscode-pylance
+# Docker
+ms-azuretools.vscode-docker
+# Hadolint
+exiasr.hadolint
+# Thunder Client
+rangav.vscode-thunder-client
+# Code Spell Check
+streetsidesoftware.code-spell-checker
+# Indent Rainbow
+oderwat.indent-rainbow
+# MarkDown Linter
+DavidAnson.vscode-markdownlint
+# YAML
+redhat.vscode-yaml
+# Material Icons
+pkief.material-icon-theme

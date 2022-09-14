@@ -1,0 +1,28 @@
+# GCC Complier
+gcc
+# Server CPU / Memory Monitor
+htop
+# Network Query Command
+iputils-ping
+# DNS Resolver Command
+host
+# Extract tool
+unzip
+# Pyenv dependencies for build python
+make
+build-essential
+libssl-dev
+zlib1g-dev
+libbz2-dev
+libreadline-dev
+libsqlite3-dev
+wget
+curl
+llvm
+libncursesw5-dev
+xz-utils
+tk-dev
+libxml2-dev
+libxmlsec1-dev
+libffi-dev
+liblzma-dev
