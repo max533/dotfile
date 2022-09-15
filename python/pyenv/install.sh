@@ -12,3 +12,7 @@ echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 
 # Initialize Pyenv
 source ~/.bashrc
+
+# Install Python 3.9.14 with pyenv
+pyenv install 3.9.14
+pyenv global 3.9.14
