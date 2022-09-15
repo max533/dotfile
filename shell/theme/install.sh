@@ -12,7 +12,7 @@ chmod u+rw ~/.poshthemes/*.omp.*
 rm ~/.poshthemes/themes.zip
 
 # Initialize with shell
-
+echo "" >> ~/.bashrc
 echo "# Set shell prompt theme with Oh My Push" >> ~/.bashrc
 echo "eval \"\$(oh-my-posh --init --shell bash --config ~/.poshthemes/montys.omp.json)\"" >> ~/.bashrc
 source ~/.bashrc
