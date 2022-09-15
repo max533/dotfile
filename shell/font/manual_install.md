@@ -21,7 +21,7 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Meslo.zip;
 echo "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip";
 wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip;
 sudo apt update;
-sudo apt install unzip fontconfig;
+sudo apt install -y unzip fontconfig;
 unzip Meslo.zip -d ~/.fonts;
 unzip CascadiaCode.zip -d ~/.fonts;
 fc-cache -fv;
@@ -40,5 +40,6 @@ echo "Done!";
 ```
 
 # Reference
-- 字型預覽 https://www.programmingfonts.org/
-- 字型下載 https://www.nerdfonts.com/font-downloads
+
+- 字型預覽 <https://www.programmingfonts.org/>
+- 字型下載 <https://www.nerdfonts.com/font-downloads>
