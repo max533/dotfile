@@ -39,7 +39,7 @@ echo "Done!";
 }
 ```
 
-# Reference
+## 3. Reference
 
 - 字型預覽 <https://www.programmingfonts.org/>
 - 字型下載 <https://www.nerdfonts.com/font-downloads>
