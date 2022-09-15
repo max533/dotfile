@@ -14,5 +14,5 @@ rm ~/.poshthemes/themes.zip
 # Initialize with shell
 
 echo "# Set shell prompt theme with Oh My Push" >> ~/.bashrc
-echo "eval \"\$(oh-my-posh --init --shell bash --config ~/.pushthemes/montys.omp.json)\"" >> ~/.bashrc
+echo "eval \"\$(oh-my-posh --init --shell bash --config ~/.poshthemes/montys.omp.json)\"" >> ~/.bashrc
 source ~/.bashrc
