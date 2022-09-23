@@ -8,6 +8,9 @@ iputils-ping
 host
 # Extract tool
 unzip
+# Editor
+vim
+nano
 # Pyenv dependencies for build python
 make
 build-essential
