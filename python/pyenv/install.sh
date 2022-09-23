@@ -14,7 +14,7 @@ echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 # Initialize Pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
-source ~/.bashrc
+eval "$(pyenv init -)"
 
 # Install Python 3.9.14 with pyenv
 pyenv install 3.9.14
