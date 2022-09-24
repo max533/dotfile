@@ -25,6 +25,7 @@ sudo apt install -y unzip fontconfig;
 unzip Meslo.zip -d ~/.fonts;
 unzip CascadiaCode.zip -d ~/.fonts;
 fc-cache -fv;
+rm -rf Meslo.zip CascadiaCode.zip
 echo "Done!";
 ```
 
