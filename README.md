@@ -33,6 +33,18 @@ cd $HOME/dotfile;
 ./setup.sh;
 ```
 
+Depend on your shell (`bash` -> `.bashrc` or `zsh` -> `.zshrc`) to activate shell setting
+
+```bash
+source ~/.bashrc
+```
+
+or
+
+```zsh
+source ~/.zshrc
+```
+
 ## With Ubuntu Container (Optional)
 
 If you want to use it in ubuntu container as your development environment, please follow below step to install.
