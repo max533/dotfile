@@ -1,0 +1,116 @@
+{
+    // Font Setting
+    "editor.fontFamily": "'Cascadia Code'",
+    "terminal.integrated.fontFamily": "'MesloLGM NF'",
+    "editor.fontLigatures": true,
+    
+    // Bracket Setting
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+
+    // VSCode Pylance Setting
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticMode": "workspace",
+
+    // Extension Locate
+    "remote.extensionKind": {
+        // Git Graph
+        "mhutchie.git-graph": ["workspace"],
+        // Git Lens
+        "eamodio.gitlens": ["workspace"],
+        // Python
+        "ms-python.python": ["workspace"],
+        // pylance
+        "ms-python.vscode-pylance": ["workspace"],
+        // Docker
+        "ms-azuretools.vscode-docker": ["workspace"],
+        // Hadolint
+        "exiasr.hadolint": ["workspace"],
+        // Thunder Client
+        "rangav.vscode-thunder-client": ["workspace"],
+        // Code Spell Check
+        "streetsidesoftware.code-spell-checker": ["workspace"],
+        // Indent Rainbow
+        "oderwat.indent-rainbow": ["workspace"],
+        // MarkDown Linter
+        "DavidAnson.vscode-markdownlint": ["workspace"],
+        // YAML
+        "redhat.vscode-yaml": ["workspace"],
+        // Material Icons
+        "pkief.material-icon-theme": ["ui"],
+        // Resource Monitor
+        "mutantdino.resourcemonitor": ["workspace"]
+    },
+
+    // Remote SSH Developement Extensions
+    "remote.SSH.defaultExtensions": [
+        // Git Graph
+        "mhutchie.git-graph",
+        // Git Lens
+        "eamodio.gitlens",
+        // Python
+        "ms-python.python",
+        // pylance
+        "ms-python.vscode-pylance",
+        // Docker
+        "ms-azuretools.vscode-docker",
+        // Hadolint
+        "exiasr.hadolint",
+        // Thunder Client
+        "rangav.vscode-thunder-client",
+        // Code Spell Check
+        "streetsidesoftware.code-spell-checker",
+        // Indent Rainbow
+        "oderwat.indent-rainbow",
+        // MarkDown Linter
+        "DavidAnson.vscode-markdownlint",
+        // YAML
+        "redhat.vscode-yaml",
+        // Resource Monitor
+        "mutantdino.resourcemonitor"
+    ],
+
+    // Remote Container Developement Extensions
+    "remote.containers.defaultExtensions": [
+        // Git Graph
+        "mhutchie.git-graph",
+        // Git Lens
+        "eamodio.gitlens",
+        // Python
+        "ms-python.python",
+        // pylance
+        "ms-python.vscode-pylance",
+        // Docker
+        "ms-azuretools.vscode-docker",
+        // Hadolint
+        "exiasr.hadolint",
+        // Thunder Client
+        "rangav.vscode-thunder-client",
+        // Code Spell Check
+        "streetsidesoftware.code-spell-checker",
+        // Indent Rainbow
+        "oderwat.indent-rainbow",
+        // MarkDown Linter
+        "DavidAnson.vscode-markdownlint",
+        // YAML
+        "redhat.vscode-yaml",
+        // Resource Monitor
+        "mutantdino.resourcemonitor"
+    ]
+
+    // Python virtualenv Tool
+    // "python.pipenvPath": "${env:HOME}/.local/bin/pipenv",
+
+    // Python Tool -> Linter || Static Scan (Security) || Static Type Check
+    // "python.linting.enabled": true,
+    // "python.linting.lintOnSave": true,
+    // "python.linting.banditEnabled": true,
+    // "python.linting.banditPath": "${env:HOME}/.local/bin/bandit",
+    // "python.linting.flake8Enabled": true,
+    // "python.linting.flake8Path": "${env:HOME}/.local/bin/flake8",
+    // "python.linting.flake8Args": [
+    //     "--max-line-length=119",
+    // ],
+    // "python.linting.mypyEnabled": true,
+    // "python.linting.mypyPath": "${env:HOME}/.local/bin/mypy",
+}
