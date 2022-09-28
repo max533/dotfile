@@ -5,17 +5,21 @@ These are config file to setup my linux system
 ## Components
 
 - VSCode
-  - Preference Settings
-  - Extension
+  - Preference Settings [(manual)](./vscode/manual_install.md)
+  - Extension [(manual)](./vscode/manual_install.md)
 
 - Python
-  - Pyenv
-  - Pipx
+  - Pyenv (auto)
+  - Pipx (auto)
 
 - Shell
-  - Bash
-  - Font
-  - Theme: Oh My Posh -> Montys
+  - Bash (auto)
+  - Font [(manual)](./shell/font/manual_install.md)
+  - Theme: Oh My Posh -> Montys Customized (auto)
+
+- Docker (not-yet)
+
+- Git (not-yet)
 
 ## How to use it
 
@@ -25,7 +29,7 @@ Pre-require tool: `git` and `sudo` command
 sudo apt install -y git sudo
 ```
 
-Type below command to install all components in your development environment.
+Type below command to install all `auto` components (exclude `manual` components) in your development environment.
 
 ```bash
 git clone https://github.com/max533/dotfile.git $HOME/dotfile;
