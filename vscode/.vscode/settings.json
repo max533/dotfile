@@ -12,6 +12,10 @@
     "python.analysis.typeCheckingMode": "basic",
     "python.analysis.diagnosticMode": "workspace",
 
+    // Editor Convention
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
     // Extension Locate
     "remote.extensionKind": {
         // Git Graph
@@ -101,7 +105,7 @@
     // Python virtualenv Tool
     // "python.pipenvPath": "${env:HOME}/.local/bin/pipenv",
 
-    // Python Tool -> Linter || Static Scan (Security) || Static Type Check
+    // Python Tool -> Linter || Security Scan || Static Type Check
     // "python.linting.enabled": true,
     // "python.linting.lintOnSave": true,
     // "python.linting.banditEnabled": true,
@@ -113,4 +117,7 @@
     // ],
     // "python.linting.mypyEnabled": true,
     // "python.linting.mypyPath": "${env:HOME}/.local/bin/mypy",
+    // "python.linting.mypyArgs":[
+    //    "--no-strict-optional"
+    // ],
 }
