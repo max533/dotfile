@@ -8,7 +8,7 @@
 
 Terminal (字體需要有等寬) -> [MesloLGM NF](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Meslo.zip)
 
-Editor -> [Cascadia Code](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip)
+Editor -> [Cascadia Code](https://github.com/microsoft/cascadia-code/releases)
 
 ### (B) 本地端是 Linux 環境 (適用情境：SSH / Linux / Containers)
 
@@ -18,14 +18,14 @@ Editor -> [Cascadia Code](https://github.com/ryanoasis/nerd-fonts/releases/lates
 echo "Download fonts";
 echo "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Meslo.zip";
 wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Meslo.zip;
-echo "https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip";
-wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip;
+echo "https://github.com/microsoft/cascadia-code/releases/download/v2111.01/CascadiaCode-2111.01.zip";
+wget https://github.com/microsoft/cascadia-code/releases/download/v2111.01/CascadiaCode-2111.01.zip;
 sudo apt update;
 sudo apt install -y unzip fontconfig;
 unzip Meslo.zip -d ~/.fonts;
-unzip CascadiaCode.zip -d ~/.fonts;
+unzip CascadiaCode-2111.01.zip -d ~/.fonts;
 fc-cache -fv;
-rm -rf Meslo.zip CascadiaCode.zip
+rm -rf Meslo.zip CascadiaCode-2111.01.zip
 echo "Done!";
 ```
 
@@ -43,4 +43,5 @@ echo "Done!";
 ## 3. Reference
 
 - 字型預覽 <https://www.programmingfonts.org/>
-- 字型下載 <https://www.nerdfonts.com/font-downloads>
+- Terminal 字型下載 <https://www.nerdfonts.com/font-downloads>
+- Editor 字型下載 <https://github.com/microsoft/cascadia-code/>
