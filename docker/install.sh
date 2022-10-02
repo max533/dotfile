@@ -1,7 +1,8 @@
-### Code Repo (https://github.com/docker/docker-install)
+### Code Repository (https://github.com/docker/docker-install)
 ### Install Docker - Convenience Script (https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script)
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
+rm get-docker.sh
 
 
 ### Setup Docker Daemon if it didn't exist (Only execute when there isn't systemd on system)
@@ -16,8 +17,7 @@ program_exists() {
 
 program_exists systemctl
 
-if [ "$?" == '0' ]; then
-    # Install
+if [ "$?" == '1' ]; then
     echo 'Setup Docker Daemon on WSL'
     sudo echo "$USER ALL=(ALL) NOPASSWD: /usr/bin/dockerd" >> /etc/sudoers
 
@@ -27,26 +27,29 @@ if [ "$?" == '0' ]; then
     echo '    sudo dockerd > /dev/null 2>&1 &' >> ~/.bashrc
     echo '    disown' >> ~/.bashrc
     echo 'fi' >> ~/.bashrc
-
 fi
 
 source ~/.bashrc
 
 
-### Add $USER to docker gorup to aviod type prefix sudo
-sudo groupadd docker
-sudo usermod -aG docker $USER
-
-
-### Activate new change to groups
-newgrp docker
+### Aviod type docker command with prefix sudo
+grep docker /etc/group
+if [ "$?" != '0' ]; then
+    sudo groupadd docker
+    sudo usermod -aG docker $USER
+    newgrp docker
+fi
 
 
 ### Verify that install docker successfully
-docker --rm run hello-world
+docker run --rm hello-world
 
-if [ "$?" == '1' ]; then
-    echo 'Install Docker Successfully'
+if [ "$?" == '0' ]; then
+    echo '============================='
+    echo ' Install Docker Successfully '
+    echo '============================='
 else
-    echo 'Install Docker Failed'
+    echo '============================='
+    echo '    Install Docker Failed    '
+    echo '============================='
 fi
