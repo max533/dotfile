@@ -1,11 +1,19 @@
 # Docker Series
 
-## How to use it
+## How to install it
 
-Type below command to install docker automatically
+Type below command to `install` docker automatically
 
 ```bash
 ./install.sh
+```
+
+## How to uninstall it
+
+Type below command to `uninstall` docker automatically
+
+```bash
+./uninstall.sh
 ```
 
 ## Docker Architecture
@@ -31,7 +39,7 @@ Docker Desktop [官網介紹](https://docs.docker.com/desktop/)
 
 - 差別在於 `Docker Desktop` 運行一個虛擬機器在你的系統上，主要是為了克服不同 OS 都能使用同一種 Linux Kernel 達到相同的使用者體驗，而 `Docker Engine` 是直接位於你的 OS Kernel 之上。簡而言之， `Docker Desktop` 是在原始的作業系統上使用 `Docker Client` ，對需虛擬機器裡面的 `Docker Daemon` 進行 `Docker Objects` 的相關操作.
 
-- `Docker Desktop` 在某些 [條件](https://docs.docker.com/desktop/faqs/general/#do-i-need-to-pay-to-use-docker-desktop) 不是免費，而 Docker Engine 是免費且開源的。
+- `Docker Desktop` 在某些 [條件](https://docs.docker.com/desktop/faqs/general/#do-i-need-to-pay-to-use-docker-desktop) 不是免費，而 `Docker Engine` 是免費且開源的。
 
 - `Docker Desktop` 負責 Docker 資訊安全方面的補丁，而 `Docker Engine` 則需使用者自行維護。
 
