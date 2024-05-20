@@ -12,7 +12,7 @@ chmod u+rw ~/.poshthemes/official_themes/*.omp.*
 rm ~/.poshthemes/themes.zip
 
 mkdir -p ~/.poshthemes/customized_themes/
-cp ~/dotfile/shell/theme/montys_customized.omp.json ~/.poshthemes/customized_themes/montys_customized.omp.json
+cp $(pwd)/montys_customized.omp.json ~/.poshthemes/customized_themes/montys_customized.omp.json
 chmod u+rw ~/.poshthemes/customized_themes/*.omp.*
 
 # Initialize with shell
