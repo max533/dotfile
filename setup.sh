@@ -4,7 +4,7 @@ echo 'Ready to setup development environment. Wait for moment.'
 echo '================================'
 echo ''
 
-WORKDIR="$(pwd)/dotfile"
+WORKDIR="$(pwd)"
 
 echo ''
 echo '================================'
