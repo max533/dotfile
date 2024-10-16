@@ -6,23 +6,23 @@ echo ''
 
 WORKDIR="$(pwd)"
 
-echo ''
-echo '================================'
-echo 'Install Bash components'
-echo '================================'
-echo ''
+# echo ''
+# echo '================================'
+# echo 'Install Bash components'
+# echo '================================'
+# echo ''
 
-cd $WORKDIR/shell/bash
-./install.sh
+# cd $WORKDIR/shell/bash
+# ./install.sh
 
-echo ''
-echo '================================'
-echo 'Install Theme components'
-echo '================================'
-echo ''
+# echo ''
+# echo '================================'
+# echo 'Install Theme components'
+# echo '================================'
+# echo ''
 
-cd $WORKDIR/shell/theme
-./install.sh
+# cd $WORKDIR/shell/theme
+# ./install.sh
 
 echo ''
 echo '================================'
