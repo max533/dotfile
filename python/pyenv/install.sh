@@ -16,6 +16,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
-# Install Python 3.11.9 with pyenv
-pyenv install 3.11.9
-pyenv global 3.11.9
+# Install Python 3.15.2 with pyenv
+export PYTHON_DEFAULT_VERSION=3.15.2
+pyenv install $PYTHON_DEFAULT_VERSION
+pyenv global $PYTHON_DEFAULT_VERSION
